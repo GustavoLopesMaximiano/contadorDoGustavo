@@ -8,7 +8,10 @@ function incrementar() {
 }
 
 function decrementar() {
-  contador.value--
+  if(contador.value !== 0) {
+    contador.value--
+  }
+  
 }
 
 function resetar() {
